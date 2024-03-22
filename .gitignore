@@ -1,4 +1,7 @@
 #주석
+.gitignore
+*.md
+job.md
 
 # Compiled class file
 *.class
