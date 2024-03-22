@@ -54,7 +54,7 @@
 
 * jdk 는 유료와 무료 로 나뉨
     * open jdk - 무료 
-      *  ㄴ대중적인 jdk
+      * ㄴ대중적인 jdk
 
 * 자바 api
     * 자바api
