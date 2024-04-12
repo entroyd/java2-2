@@ -9,9 +9,9 @@ class Point{
 
 }
 
-public class ColorPoint extends Point {
+public class ColorPoint2 extends Point {
 	private String color;
-	ColorPoint(int x, int y, String color){
+	ColorPoint2(int x, int y, String color){
 		super (x,y);
 		this.color = color;
 }
@@ -24,7 +24,7 @@ void show() {
 	System.out.println(color + "색으로" + "(" + getX() +  "," + getY()+")");
 }
 	public static void main(String[] args) {
-		ColorPoint cp = new ColorPoint(5,5,"YELLOW");
+		ColorPoint2 cp = new ColorPoint2(5,5,"YELLOW");
 		cp.setPoint(10,20);
 		cp.setColor("GREEN");
 		cp.show();
