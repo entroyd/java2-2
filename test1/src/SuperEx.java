@@ -8,7 +8,7 @@ class Point {
       this.x = x; this.y = y;
     }
     public void showPoint() {
-       System.out.println("(" + x+"," + y + ")");
+        System.out.println("(" + x + "," + y + ")");
     }
 }
 class ColorPoint extends Point{
